@@ -1,0 +1,1 @@
+docker run -d --name media -v /opt/itadmin:/home nginx:latest
