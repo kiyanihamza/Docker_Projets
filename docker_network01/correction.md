@@ -1,0 +1,1 @@
+docker network create -d macvlan --subnet=10.10.1.0/24 --ip-range=10.10.1.0/24  news 
