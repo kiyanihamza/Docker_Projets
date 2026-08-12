@@ -1,0 +1,11 @@
+name: docker
+
+services:
+  web:
+    container_name: httpd
+    image: httpd:latest
+    ports:
+      - "5001:80"
+    restart: always
+    volumes:
+      - /opt/data:/usr/local/apache2/htdocs:ro
